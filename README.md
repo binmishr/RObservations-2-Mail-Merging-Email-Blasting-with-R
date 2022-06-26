@@ -1,7 +1,8 @@
 # RObservations-2-Mail-Merging-Email-Blasting-with-R
 
-The details of the codeset and plots are included in the attached Adobe Acrobat reader (.pdf) file in this repository. 
-You need to download the same to view the contents. There are referrals to other contents in BLUE colour also to follow.
+The details of the codeset and plots are included in the attached Microsoft Word Document (.docx) file in this repository. 
+You need to view the file in "Read Mode" to see the contents properly after downloading the same.
+
 
 Alot of individuals think that to use R or a programming language at work you need to be a software engineer, data analyst, data scientist etc. This can be discouraging to some who don’t work in this discipline and want to break into this field, but presently work an administrative or sales role that does not require or need such skills.
 
@@ -13,17 +14,5 @@ NOTE: But in this post we are going to look at how to Automate Mail merges ( or 
 The problem:
 
 To keep things simple, suppose I have gathered a list of leads with names and emails which for emailing purposes is enough data to make a simple mail merge (or email blast).
-
-(Of course, for our case- this data is made up)
-
-buisness_owners <- data.frame(Name=c("Aaron","Susan","Tim"),
-                              Email=c("aaron_gillman@aaronsties.com", "sue@suesflowers.ca","tim@buckto.org"))
-
-buisness_owners
-
-##    Name                        Email
-## 1 Aaron aaron_gillman@aaronsties.com
-## 2 Susan           sue@suesflowers.ca
-## 3   Tim               tim@buckto.org
 
 Using the emayili package
